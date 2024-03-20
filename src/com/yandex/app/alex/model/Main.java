@@ -1,3 +1,8 @@
+package com.yandex.app.alex.model;
+
+import com.yandex.app.alex.services.Status;
+import com.yandex.app.alex.services.TaskManager;
+
 public class Main {
 
     public static void main(String[] args) {

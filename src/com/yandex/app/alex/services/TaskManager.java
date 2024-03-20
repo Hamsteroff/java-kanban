@@ -1,4 +1,9 @@
-package manager;
+package com.yandex.app.alex.services;
+
+
+import com.yandex.app.alex.model.Epic;
+import com.yandex.app.alex.model.Subtask;
+import com.yandex.app.alex.model.Task;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,3 +1,7 @@
+package com.yandex.app.alex.model;
+
+import com.yandex.app.alex.services.Status;
+
 import java.util.Objects;
 
 public class Task {
@@ -66,7 +70,7 @@ public class Task {
 
     @Override
     public String toString() {
-        return "Task{" +
+        return "com.yandex.app.alex.model.Task{" +
                 "title='" + title + '\'' +
                 ", description='" + description + '\'' +
                 ", status=" + status +

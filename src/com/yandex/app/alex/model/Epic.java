@@ -1,3 +1,7 @@
+package com.yandex.app.alex.model;
+
+import com.yandex.app.alex.services.Status;
+
 import java.util.HashMap;
 
 public class Epic extends Task {

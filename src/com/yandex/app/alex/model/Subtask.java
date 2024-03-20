@@ -1,3 +1,7 @@
+package com.yandex.app.alex.model;
+
+import com.yandex.app.alex.services.Status;
+
 public class Subtask extends Task {
     private int epicIdForSubtask;
 
