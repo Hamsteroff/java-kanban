@@ -1,5 +1,8 @@
-package com.yandex.app.alex.model;
+package com.yandex.app.alex;
 
+import com.yandex.app.alex.model.Epic;
+import com.yandex.app.alex.model.Subtask;
+import com.yandex.app.alex.model.Task;
 import com.yandex.app.alex.services.Status;
 import com.yandex.app.alex.services.TaskManager;
 

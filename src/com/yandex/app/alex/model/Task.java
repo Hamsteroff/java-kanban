@@ -11,8 +11,6 @@ public class Task {
     private Status status;
     private int id;
 
-
-
     public Task(String title, String description, Status status) {
         this.title = title;
         this.description = description;
@@ -51,13 +49,15 @@ public class Task {
         this.status = status;
     }
 
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Task task = (Task) o;
-        return Objects.equals(title, task.title) && Objects.equals(id, task.id);
+        return Objects.equals(title, task.title) &&
+                Objects.equals(description, task.description) &&
+                Objects.equals(status, task.status) &&
+                Objects.equals(id, task.id);
     }
 
     @Override
@@ -66,7 +66,6 @@ public class Task {
         result = 31 * result;
         return result;
     }
-
 
     @Override
     public String toString() {
